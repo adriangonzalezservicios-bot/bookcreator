@@ -1,0 +1,6 @@
+{
+  "name": "Pluma - Estudio de Escritura con Claude",
+  "description": "Estudio literario profesional para escribir libros y novelas con Claude como asistente de corrección, inspiración y narrativa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

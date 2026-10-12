@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", "EB Garamond", Georgia, Cambria, serif;
+  --font-editorial: "EB Garamond", serif;
+  --font-display: "Cinzel", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(160, 140, 120, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(160, 140, 120, 0.4);
+}
+
+/* Prose book styling */
+.book-paper-light {
+  background-color: #faf7f2;
+  color: #262320;
+}
+
+.book-paper-sepia {
+  background-color: #f4ece1;
+  color: #3b3026;
+}
+
+.book-paper-dark {
+  background-color: #171513;
+  color: #ded8cf;
+}
+
+.book-paper-midnight {
+  background-color: #0d0f14;
+  color: #d1d5db;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .book-print-content {
+    page-break-after: always;
+    font-size: 11pt;
+    line-height: 1.6;
+  }
+}

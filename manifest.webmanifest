@@ -1,0 +1,11 @@
+{
+  "name": "ClaudeWriter — Estudio de escritura",
+  "short_name": "ClaudeWriter",
+  "description": "Tu estudio de escritura y asistente literario",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#121110",
+  "theme_color": "#121110",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
